@@ -1,0 +1,500 @@
+.error {
+    color: #E74C3C;
+}
+.font  {
+	color: #161616;
+	font-family: 'VT323', monospace;
+}
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.file {
+	font-family: 'VT323', monospace;
+	color: #DBDBDB;
+	font-size: 14px;
+}
+hr.line {
+	width: 40%;
+}
+body {
+	background: #161616;
+	color: #dbdbdb;
+	font-family: 'VT323', monospace;
+	text-shadow: 1px 1px 8px #000
+	font-size: 14px;
+	line-height: 14px;		padding:0;	margin:0;
+}
+
+video
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+
+.blink .cursor:before { content: ""; }
+.cursor:before { content: "_"; background: #0f0; color: #0f0; }
+
+#dg-modem {
+	display: block;
+	line-height: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	white-space: pre;
+	;
+    color: #0f0;
+	background: #161616;
+}
+a {
+	color: #ffffff;
+	font-size: 14px;
+	text-shadow: 1px 1px 8px #000
+}
+
+/* FontAwesome shit */
+.icon {
+color: white;
+	text-shadow: 1px 1px 8px #000;
+}
+.icon .fa-instagram {
+  color: white;
+}
+.icon .fa-instagram:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-soundcloud {
+  color: white;
+}
+.icon .fa-soundcloud:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-steam {
+  color: white;
+}
+.icon .fa-steam:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-tumblr {
+  color: white;
+}
+.icon .fa-tumblr:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-twitter {
+  color: white;
+}
+.icon .fa-twitter:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-twitch {
+  color: white;
+}
+.icon .fa-twitch:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.icon .fa-youtube-play {
+  color: white;
+}
+.icon .fa-youtube-play:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+
+a:hover {
+	color: #8b0000;
+	   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+nav > ul,
+nav a {
+	color: #DBDBDB;
+	list-style:none;
+	margin:0;padding:0;
+	text-align:center
+}
+
+nav > ul > li {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	cursor:default
+}
+
+nav > ul > li:after {
+	content:"|";
+	margin:0 8px;
+	opacity:.3
+}
+
+nav > ul > li:last-child:after {
+	content:"";
+	margin:0
+}
+h1 {
+    color: #455c6e;
+    display: block;
+    margin-top: 30px;
+	font-size: 24px
+}
+nav > ul,
+nav a {
+	color: #DBDBDB;
+    font-size: 15px;
+	list-style:none;
+	margin:0;padding:0;
+	text-align:center
+}
+
+nav > ul > li {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	cursor:default
+}
+
+nav > ul > li:after {
+	content:"|";
+	margin:0 8px;
+	opacity:.3
+}
+
+nav > ul > li:last-child:after {
+	content:"";
+}
+
+pre {
+	font-size: 14px;
+    text-align: center;
+	text-shadow: 1px 1px 8px #000;
+	font-family: 'VT323', monospace
+}
+
+i {
+	color: #111111;
+	font-size: 14px;
+    text-align: center;
+}
+
+.death {
+		font-size: 14px;
+		text-shadow: 0 0 3px #FF0000
+      animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 10s; /* Chrome and Safari */
+	  animation-iteration-count: infinite;
+	  animation-direction: alternate;
+	  
+    }
+	
+	    @keyframes colorchange
+    {
+      0%   {COLOR: red;}
+      25%  {COLOR: white;}
+      50%  {COLOR: red;}
+      75%  {COLOR: white;}
+      100% {COLOR: red;}
+	  
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {COLOR: red;}
+      25%  {COLOR: white;}
+      50%  {COLOR: red;}
+      75%  {COLOR: white;}
+      100% {COLOR: red;}
+    }
+	
+.deathtitle {
+		font-size: 18px;
+		text-shadow: 0 0 20px #ff69b4;
+      animation: colorchange2 10s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange2 10s; /* Chrome and Safari */
+	  animation-iteration-count: infinite;
+	  animation-direction: alternate;
+	  
+    }
+	
+	@keyframes colorchange2
+    {
+      0%   {COLOR: #ff69b4;}
+      25%  {COLOR: white;}
+      50%  {COLOR: #ff69b4;}
+      75%  {COLOR: white;}
+      100% {COLOR: #ff69b4;}
+	  
+    }
+
+    @-webkit-keyframes colorchange2 /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {COLOR: #ff69b4;}
+      25%  {COLOR: white;}
+      50%  {COLOR: #ff69b4;}
+      75%  {COLOR: white;}
+      100% {COLOR: #ff69b4;}
+	  
+    }
+	
+	
+@-webkit-keyframes fadeInUpD2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpD2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUpD2 {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+@-webkit-keyframes fadeInUpD1 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpD1 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUpD1 {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+	
+#marquee {
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -3px;
+	color: #ffffff;
+	font-family: monospace;
+}
+
+/* FontAwesome shit */
+.fa-instagram {
+  color: white;
+}
+.fa-instagram:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.fa-soundcloud {
+  color: white;
+}
+.fa-soundcloud:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.fa-steam {
+  color: white;
+}
+.fa-steam:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-twitter:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+.fa-youtube-play {
+  color: white;
+}
+.fa-youtube-play:hover {
+  color: #ff69b4;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+
+/* volume shit */
+input[type=range] {
+  height: 5px;
+  -webkit-appearance: none;
+  margin: 3% 0;
+  width: 40%;
+  background: none;
+  border: none;
+  position: absolute;
+  left: 30%;
+  
+  
+
+  }
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 25px #272727;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 7px;
+  width: 15px;
+  border-radius: 14px;
+  background: #8b0000;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #50555C;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 25px #272727;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 7px;
+  width: 15px;
+  border-radius: 14px;
+  background: #8b0000;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 0px 0px 10px #50555C;
+}
+input[type=range]::-ms-fill-upper {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 0px 0px 10px #50555C;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 7px;
+  width: 15px;
+  border-radius: 14px;
+  background: #8b0000;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #50555C;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #50555C;
+}
