@@ -12,14 +12,14 @@ $(document).ready(function() {
             name: 'Steam Profile',
 			plink: 'http://steamcommunity.com/id/smokeweed420policecantcatchme'
         },
-	{
+        {
 	    name: ' Injector '
 			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326708630913035/xianware_injector.exe'
-	},
-	{
-	    name: ' DLL '
+        },
+        {
+	    name: ' Cheat '
 			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326721704689674/xianware.dll'
-	},
+        },
 		];    
 		
     for (var i in plinks) {
