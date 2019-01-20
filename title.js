@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ "w", "we", "wei", "weix", "weixi", "weixia", "weixian", "weixiann" , "weixiann <" , "weixiann <3" , "weixiann <3 u" ];
+var titleText = [ "s", "sa", "sad", "sadd", "sadde", "sadde.", "sadde.s", "sadde.st" ];
 
 function loop() {
 
