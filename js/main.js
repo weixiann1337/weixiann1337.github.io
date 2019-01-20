@@ -1,25 +1,17 @@
 $(document).ready(function() {
     var plinks = [
        	{
-            name: 'Steam',
-			plink: 'steamcommunity.com/id/HeldUp'
+            name: 'Facebook',
+			plink: 'https://www.facebook.com/zhawn1337'
         },
        	{
-            name: 'Group',
-			plink: 'http://steamcommunity.com/groups/Jok3rcc'
+            name: 'Cheat DLL',
+			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326721704689674/xianware.dll'
         },
        	{
-            name: 'HasteBin',
-			plink: 'http://steamcommunity.com/groups/Hastebin'
+            name: 'Injector',
+			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326708630913035/xianware_injector.exe'
         },
-       	{
-            name: 'Twitter',
-			plink: 'https://twitter.com/Jok3rcc'
-        },
-       	{
-            name: 'Deviant',
-			plink: 'https://jok3rcc.deviantart.com/gallery/'
-        }
 		];    
 		
     for (var i in plinks) {
