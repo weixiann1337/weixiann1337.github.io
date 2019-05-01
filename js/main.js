@@ -5,12 +5,8 @@ $(document).ready(function() {
 			plink: 'https://www.facebook.com/zhawn1337'
         },
        	{
-            name: 'Cheat DLL',
-			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326721704689674/xianware.dll'
-        },
-       	{
-            name: 'Injector',
-			plink: 'https://cdn.discordapp.com/attachments/497811785047343114/536326708630913035/xianware_injector.exe'
+            name: 'Instagram',
+			plink: 'https://www.instagram.com/weixiann/'
         },
 		];    
 		
